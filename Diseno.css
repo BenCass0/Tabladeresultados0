@@ -1,3 +1,7 @@
+body{
+    padding-left: 380px;
+    padding-top: 150px;
+}
 .Contenedor{
     display: flex;
     border: 0px solid #ffffff;
@@ -7,6 +11,7 @@
     text-align: left;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     border-radius: 25px;
+    caret-color: transparent;
 }
 ul{
     list-style-type: none;
@@ -15,11 +20,12 @@ ul{
     font-family:'Hanken Grotesk',sans-serif;
     text-align: left;
     flex: 1;
-    padding: 0px;
+    padding-left: 0px;
     border-radius: 0px 25px 25px 0px;
-    border-left: none;
+    border-left: none;  
 }
 .Results{
+    font-size: 18px;
     font-family:'Hanken Grotesk',sans-serif;
     padding: 0px;
     flex: 1;
@@ -45,46 +51,53 @@ ul{
     border: none;
     cursor: pointer;
     margin-top: 10px;
+    caret-color: transparent;
+}
+.boton:active{
+    background: hsl(224, 30%, 27%);
+    box-shadow: 5px rgba(0, 0, 0, 0.3);
+    transform: scale(0.98);
+    
 }
 .r{
     padding-top: 8px;
     background-color: hsl(0, 66%, 94%);
     color: hsl(0, 100%, 67%);
-    width: 165px;
+    width: 185px;
     height: 30px;
     border-radius: 8px;
     text-align: left;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .m{
     padding-top: 8px;
     background-color: hsl(38, 69%, 94%);
     color: hsl(39, 100%, 56%);
-    width: 165px;
+    width: 185px;
     height: 30px;
     border-radius: 8px;
     text-align: left;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .v{
     padding-top: 8px;
     background-color: hsl(165, 100%, 96%);
     color: hsl(166, 100%, 37%);
-    width: 165px;
+    width: 185px;
     height: 30px;
     border-radius: 8px;
     text-align: left;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .vi{
     padding-top: 8px;
     background-color: hsl(235, 81%, 94%);
     color:hsl(234, 85%, 45%) ;
-    width: 165px;
+    width: 185px;
     height: 30px;
     border-radius: 8px;
     text-align: left;
-    padding-left: 35px;
+    padding-left: 15px;
 }
 .numero{
     color: black;
@@ -123,4 +136,8 @@ li{
     padding-bottom: 0px;
     font-size: 14px;
     opacity: 0.8;
+}
+i{
+    text-align: left;
+    padding-right: 25px;
 }
