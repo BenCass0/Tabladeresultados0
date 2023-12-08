@@ -141,3 +141,122 @@ i{
     text-align: left;
     padding-right: 25px;
 }
+@media screen and (max-width: 375px) {
+    body{
+        padding-right: 500px;
+    }
+    .Contenedor {
+        border: 0px solid #ffffff;
+        width: 350px;
+        height: 800px;
+        margin: 1px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+        border-radius: 25px;
+        caret-color: transparent;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .Results{
+        font-size: 18px;
+        font-family:'Hanken Grotesk',sans-serif;
+        padding: 0px;
+        background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        border-radius: 25px;
+        width: 350px;
+        height: 400px;
+        color: #ffffff;
+    }
+    .Score{
+        font-family:'Hanken Grotesk',sans-serif;
+        text-align: center;
+        width: 350px;
+        padding-left: 0px;
+        border-radius: 0px 25px 25px 0px;
+        border-left: none;  
+    }
+    .Circulo {
+        height: 150px; 
+        width: 150px; 
+        padding-left: 0px;
+        text-align: right;
+        align-items: right;
+    }
+    i{
+        width: 100%;
+        padding: 15px;
+    }
+    .titulo{
+        padding-left: 90px;
+        opacity: 0.8;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .p{
+        padding-left: 100px;
+        font-size: 22px;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .pa{
+        opacity: 0.8;
+        font-size: 18px;
+        text-align:center;
+        padding-left: 0px;
+        padding-right: 30px;
+        max-width: 350px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+    }
+    .r{
+        padding-top: 10px;
+        background-color: hsl(0, 66%, 94%);
+        color: hsl(0, 100%, 67%);
+        width: 270px;
+        height: 30px;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 15px;
+        align-items: center;
+    }
+    .m{
+        padding-top: 8px;
+        background-color: hsl(38, 69%, 94%);
+        color: hsl(39, 100%, 56%);
+        width: 270px;
+        height: 30px;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .v{
+        padding-top: 8px;
+        background-color: hsl(165, 100%, 96%);
+        color: hsl(166, 100%, 37%);
+        width: 270px;
+        height: 30px;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .vi{
+        padding-top: 8px;
+        background-color: hsl(235, 81%, 94%);
+        color:hsl(234, 85%, 45%) ;
+        width: 270px;
+        height: 30px;
+        border-radius: 8px;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .boton{
+        width: 285px;
+        align-items: left;
+    }
+    h3{
+        text-align: left;
+    }
+    .Score li{
+        text-align: left;
+    }
+}
